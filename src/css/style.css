@@ -333,3 +333,64 @@ footer {
   font-size: var(--small-font);
   padding: 1em;
 }
+
+/* Newsletter signup styles */
+.newsletter {
+  margin-top: 2rem;
+  padding: 1.5rem 1rem;
+  background-color: var(--dark-grey);
+  color: var(--light-grey);
+  text-align: center;
+}
+
+.newsletter h2 {
+  color: white;
+}
+
+.newsletter-form {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 1em;
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+.newsletter-form__field {
+  display: flex;
+  flex-direction: column;
+  flex: 1 1 180px;
+  text-align: left;
+}
+
+.newsletter-form__field label {
+  font-size: var(--small-font);
+  margin-bottom: 0.25em;
+}
+
+.newsletter-form__field input {
+  padding: 0.5em;
+  border: 1px solid var(--light-grey);
+  font-size: 1em;
+}
+
+.newsletter-form button {
+  flex: 1 1 100%;
+  margin-top: 0.5em;
+}
+
+.newsletter-form__error {
+  flex: 1 1 100%;
+  color: var(--primary-color);
+  font-weight: bold;
+  min-height: 1.2em;
+  padding: 0;
+}
+
+.newsletter-form__success {
+  font-weight: bold;
+  color: var(--primary-color);
+}
+
+/* End newsletter signup styles */

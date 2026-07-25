@@ -58,9 +58,41 @@
           </li>
         </ul>
       </section>
+
+      <section class="newsletter">
+        <h2>Join Our Newsletter</h2>
+        <p>Sign up to hear about new gear, sales, and camping tips.</p>
+        <form id="newsletter-form" class="newsletter-form" novalidate>
+          <div class="newsletter-form__field">
+            <label for="newsletter-email">Email</label>
+            <input
+              type="email"
+              id="newsletter-email"
+              name="email"
+              placeholder="you@example.com"
+              required
+            />
+          </div>
+          <div class="newsletter-form__field">
+            <label for="newsletter-phone">Phone Number</label>
+            <input
+              type="tel"
+              id="newsletter-phone"
+              name="phone"
+              placeholder="555-555-5555"
+              required
+            />
+          </div>
+          <p id="newsletter-error" class="newsletter-form__error" role="alert"></p>
+          <button type="submit">Sign Up</button>
+        </form>
+        <p id="newsletter-success" class="newsletter-form__success" hidden>
+          Thanks for signing up! Keep an eye on your inbox.
+        </p>
+      </section>
     </main>
     <footer id="main-footer">
-      
+
     </footer>
 
   </body>
